@@ -1,0 +1,27 @@
+{
+  "name": "mealplanner",
+  "version": "1.0.0",
+  "description": "A meal planner made using svelte and express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheIthorian/Meal-Planner.git"
+  },
+  "keywords": [
+    "meal",
+    "planner",
+    "full-stack"
+  ],
+  "author": "TheIthorian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheIthorian/Meal-Planner/issues"
+  },
+  "homepage": "https://github.com/TheIthorian/Meal-Planner#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
