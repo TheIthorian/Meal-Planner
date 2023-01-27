@@ -1,27 +1,33 @@
 {
-  "name": "mealplanner",
-  "version": "1.0.0",
-  "description": "A meal planner made using svelte and express.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheIthorian/Meal-Planner.git"
-  },
-  "keywords": [
-    "meal",
-    "planner",
-    "full-stack"
-  ],
-  "author": "TheIthorian",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TheIthorian/Meal-Planner/issues"
-  },
-  "homepage": "https://github.com/TheIthorian/Meal-Planner#readme",
-  "dependencies": {
-    "typescript": "^4.9.4"
-  }
+	"name": "mealplanner",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "playwright test",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.28.1",
+		"@sveltejs/adapter-auto": "^1.0.0",
+		"@sveltejs/kit": "^1.0.0",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.3",
+		"vite": "^4.0.0"
+	},
+	"type": "module"
 }
